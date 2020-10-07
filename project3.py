@@ -2,11 +2,11 @@ import random
 
 def display(board):
     print(f"""
-{board[7]}|{board[8]}|{board[9]}                         1 | 8 | 9
+{board[1]}|{board[8]}|{board[9]}                         1 | 8 | 9
 ---+---+---                       --+---+---
-{board[4]}|{board[5]}|{board[6]}     Positions -->       3 | 5 | 6
+{board[3]}|{board[5]}|{board[6]}     Positions -->       3 | 5 | 6
 ---+---+---                       --+---+---
-{board[1]}|{board[2]}|{board[3]}                         7| 2 | 4
+{board[7]}|{board[2]}|{board[4]}                         7| 2 | 4
 """)
 
 def validInput():
